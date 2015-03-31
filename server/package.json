@@ -1,0 +1,18 @@
+{
+  "name": "oauth-test-server",
+  "version": "0.0.0",
+  "description": "OAuth Test Server For Rhino3D Plugin",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "express": "^4.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true
+}

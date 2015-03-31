@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<plugin3dhubs>
+	<!-- Plugin configuration. -->
+	<config>
+		<MinModelSize>3</MinModelSize>
+		<MaxFileSize>16777216</MaxFileSize>
+	</config>
+	
+	<!-- STL Export Settings -->
+	<export>
+		<ExportFileAs>Binary</ExportFileAs>
+		<ExportUnfinishedObjects>Yes</ExportUnfinishedObjects>
+		<UseSimpleDialog>No</UseSimpleDialog>
+		<UseSimpleParameters>No</UseSimpleParameters>
+		
+		<!-- Detailed Options -->
+		<JaggedSeams>No</JaggedSeams>
+		<PackTextures>No</PackTextures>
+		<Refine>Yes</Refine>
+		<SimplePlane>No</SimplePlane>
+		<Weld>No</Weld>
+		
+		<!-- Advanced Options -->
+		<Angle>No</Angle>
+		<AspectRatio>0</AspectRatio>
+		<Distance>0.01</Distance>
+		<Grid>16</Grid>
+		<MaxEdgeLength>0</MaxEdgeLength>
+		<MinEdgeLength>0.0001</MinEdgeLength>
+	</export>
+</plugin3dhubs>
